@@ -1,2 +1,6 @@
+# Jekyll build and cache
 /_site
+.sass-cache
+
+# Mac OS
 .DS_Store
