@@ -10,8 +10,9 @@ description: > # this means to ignore newlines until "baseurl:"
 
 url: "http://mdluo.github.io" # the base hostname & protocol for your site
 twitter_username: mdluo
-github_username:  mdluo
+github_username: mdluo
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
 comments: true
