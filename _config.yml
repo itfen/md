@@ -15,3 +15,4 @@ github_username:  mdluo
 
 # Build settings
 markdown: kramdown
+comments: true
