@@ -6,7 +6,9 @@ email: mingdong.luo@icloud.com
 
 description: > # this means to ignore newlines until "baseurl:"
   This is a personal blog of Mingdong on Github Pages.
-  Read more in the About page.
+
+description_footer: >
+  Read more in the <a href="about">About page</a>.
 
 url: "http://mdluo.github.io" # the base hostname & protocol for your site
 twitter_username: mdluo
