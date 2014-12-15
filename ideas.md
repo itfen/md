@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Ideas
-permalink: /ideas/
+permalink: /ideas.html
 ---
