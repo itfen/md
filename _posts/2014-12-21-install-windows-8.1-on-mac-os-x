@@ -6,3 +6,5 @@ comments: true
 share: true
 ---
 To be continued...
+
+![My helpful screenshot]({{ site.url }}/assets/img/20141221-1.png)
