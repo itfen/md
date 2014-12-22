@@ -5,6 +5,8 @@ categories:
 comments: true
 share: true
 ---
+OS X 本身是非常强大而且适合编程的系统，但 Visual Studio 目前只能在 Windows 下使用。本文记录了在 MacBook Pro (Retina, 13-inch, Mid 2014) 下安装 Windows 8.1 的过程。OS X 版本：OS X Yosemite 10.10.1 (14B25), Windows 版本：Windows 8.1 x64 English
+
 
 ![My helpful screenshot]({{ site.url }}/assets/img/20141221-1.png)
 
