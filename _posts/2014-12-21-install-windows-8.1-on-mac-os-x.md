@@ -8,9 +8,9 @@ share: true
 ####前言
 本文记录了在 MacBook Pro (Retina, 13-inch, Mid 2014) 下安装 Windows 8.1 的过程。
 
-OS X 版本：OS X Yosemite 10.10.1 (14B25)
+- OS X 版本：OS X Yosemite 10.10.1 (14B25)
 
-Windows 版本：Windows 8.1 x64 English
+- Windows 版本：Windows 8.1 x64 English
 
 ####准备：
 
