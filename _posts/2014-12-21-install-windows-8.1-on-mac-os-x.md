@@ -7,6 +7,7 @@ share: true
 ---
 ####前言
 本文记录了在 MacBook Pro (Retina, 13-inch, Mid 2014) 下安装 Windows 8.1 的过程。
+以及在 Macbook 上安装好了 Windows 之后无损调整 Windows 分区大小的方法。
 
 - OS X 版本：OS X Yosemite 10.10.1 (14B25)
 
