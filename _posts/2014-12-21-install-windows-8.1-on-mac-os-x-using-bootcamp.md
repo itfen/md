@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "在 MacOS X 上安装 Windows 8.1"
+title:  "在 MacOS X 上使用 BootCamp 安装 Windows 8.1"
 categories:
 comments: true
 share: true
