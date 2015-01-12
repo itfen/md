@@ -16,5 +16,4 @@ github_username: mdluo
 
 # Build settings
 markdown: kramdown
-#highlighter: pygments
-comments: true
+highlighter: pygments
