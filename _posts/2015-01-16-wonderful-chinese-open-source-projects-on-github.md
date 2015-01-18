@@ -22,7 +22,7 @@ share: true
     * 5028个 Star 1725个 Fork
     * 非常优秀的图表框架。
 
-* [echarts](https://github.com/ecomfe/echarts)
-    * 百度发起并维护
-    * 5028个 Star 1725个 Fork
-    * 非常优秀的图表框架。
+* [Pomelo](https://github.com/NetEase/pomelo)
+    * 网易发起并维护
+    * 4126个 Star 1248个 Fork
+    * 基于 Node.js 的网络游戏后台。因为在 Node.js 早期就有的项目，并且代码质量较高，而且有大公司支持，所以在海外关注度也不低。
