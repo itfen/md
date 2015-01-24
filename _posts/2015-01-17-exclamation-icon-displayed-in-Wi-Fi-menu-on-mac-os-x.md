@@ -11,3 +11,11 @@ share: true
 提示信息是： No Internet Connection...
 
 ![My helpful screenshot]({{ site.url }}/assets/img/20150120-3.png)
+
+解决这个问题的方法很多，网上甚至有通过 Terminal 删除配置文件的做法，但其实有个更简单的方法：
+
+打开 Network Preferences 在窗口的顶部有个 Location 选项，点击它选 Edit Locations，添加一项，确定后点 Apply
+这时候会重新连接网络，连上了应该就会回到正常的网络图标了。
+
+使用 Location 选项还能用来切换网络 DNS ，使用路由器的时候选择配置了 8.8.8.8 的 DNS 的设置，使用诸如 CMCC
+这种需要打开验证网页的网络时就切换到 DNS 为空白的设置。
