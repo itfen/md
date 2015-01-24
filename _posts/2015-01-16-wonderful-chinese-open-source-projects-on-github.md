@@ -26,3 +26,33 @@ share: true
     * 网易发起并维护
     * 4126个 Star 1248个 Fork
     * 基于 Node.js 的网络游戏后台。因为在 Node.js 早期就有的项目，并且代码质量较高，而且有大公司支持，所以在海外关注度也不低。
+
+* [Sea.js](https://github.com/seajs/seajs)
+    * 阿里的玉伯发起并维护
+    * 3530个 Star 1697个 Fork
+    * JavaScript模块加载框架，在同类作品里面属于非常优秀。
+
+* [PNChart](https://github.com/kevinzhow/PNChart)
+    * 秒视周楷雯发起并维护
+    * 3388个 Star 516个 Fork
+    * 有动画效果的图表控件。好像前一段时间被炒的火热。
+
+* [tengine](https://github.com/alibaba/tengine)
+    * 阿里发起并维护
+    * 2468个 Star 732个 Fork
+    * 基于 Nginx 的 Web 服务器。
+
+* [Amaze UI](https://github.com/allmobilize/amazeui)
+    * 云适配发起并维护
+    * 2244个 Star 732个 Fork
+    * 前端框架。
+
+* [Skynet](https://github.com/cloudwu/skynet)
+    * 云风发起并维护
+    * 2150个 Star 1065个 Fork
+    * 开源并发框架。
+
+* [Fastjson](https://github.com/alibaba/fastjson)
+    * 阿里发起并维护
+    * 1785个 Star 791个 Fork
+    * Java 的 Json 库。
