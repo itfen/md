@@ -7,9 +7,9 @@ share: true
 ---
 
 转载自知乎问题：《[中国公司在 GitHub 上有哪些比较出彩的开源项目？](http://www.zhihu.com/question/20194937)》经过简单整理、添加 Github 链接、更新 Star/Fork 数等。
-由于 Star/Fork 随时都在变，文中的数量仅供参考。
+由于 Star/Fork 数量随时都在变，文中的数量仅供参考。
 
-#### 回答1：[http://zhi.hu/eOTR](http://zhi.hu/eOTR) By [王亞暉](http://www.zhihu.com/people/superwyh)
+#### 回答1：[http://zhi.hu/eOTR](http://zhi.hu/eOTR) ，作者： [王亞暉](http://www.zhihu.com/people/superwyh)
 
 * [Cocos2d-x](https://github.com/cocos2d/cocos2d-x)
     * 王哲发起，触控支持 :
