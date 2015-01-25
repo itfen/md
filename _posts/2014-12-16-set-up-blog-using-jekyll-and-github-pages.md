@@ -9,7 +9,12 @@ share: true
 
 ### 1. 创建 Github Pages 源代码仓库
 
-在 Github 上新建一个 Repository ，命名为 `username.github.io`，其中 username 就是账户名
+在 Github 上新建一个 Repository ，命名为 `username.github.io`，其中 username 就是账户名。在 master 分支里放入静态 HTML
+文件，通过网址 `http://username.github.io` 即可直接访问到。
+
+### 2. 搭建本地测试环境
+
+发布新个更改和
 
 [Github Pages]: https://pages.github.com/
 [Jekyll]:       http://jekyllrb.com/
