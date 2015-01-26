@@ -14,7 +14,8 @@ share: true
 
 ### 2. 搭建本地测试环境
 
-发布新个更改和
+如果不搭建本地环境，更改任何代码、添加或编辑文章，只能通过 commit 和 push 上传到 Github 才能查看效果，速度很慢。所以需要在本地搭建和
+Github Pages 相同的环境来进行测试。由于 Github 上不支持 Jekyll 插件（插件需要运行 Ruby 程序，这样 Github Pages 就成 Github Server 了）
 
 [Github Pages]: https://pages.github.com/
 [Jekyll]:       http://jekyllrb.com/
