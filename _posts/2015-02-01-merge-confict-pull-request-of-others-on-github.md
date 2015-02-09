@@ -7,6 +7,7 @@ share: true
 ---
 
 ```bash
+
 git status
 
 git remote -v
