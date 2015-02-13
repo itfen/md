@@ -6,7 +6,7 @@ comments: true
 share: true
 ---
 
-```bash
+{% highlight bash%}
 
 git status
 
@@ -34,4 +34,4 @@ git pull
 
 git push
 
-```
+{% endhighlight %}
