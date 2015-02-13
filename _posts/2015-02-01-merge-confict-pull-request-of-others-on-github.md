@@ -7,7 +7,6 @@ share: true
 ---
 
 {% highlight bash%}
-
 git status
 
 git remote -v
@@ -33,5 +32,4 @@ git commit
 git pull
 
 git push
-
 {% endhighlight %}
