@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "配置 Github 提交代码时区"
+title:  "配置 GitHub 提交代码时区"
 categories:
 comments: true
 share: true
