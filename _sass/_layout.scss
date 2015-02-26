@@ -234,3 +234,77 @@
         }
     }
 }
+
+.post-footer {
+    border-top: 1px solid #dbdbdb;
+    padding-top: 10px;
+}
+
+.bdsharebuttonbox {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    > a {
+      color: #828282;
+      text-decoration: none;
+      text-align: center;
+      float: left;
+      display: block;
+      position: relative;
+      width: 40px;
+      height: 40px;
+    }
+
+    > a:hover {
+      color: #fff
+    }
+
+    > a:before {
+      font-size: 24px;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -12px;
+      margin-left: -12px;
+    }
+
+    > .fa-weixin:hover {
+      background: #49ae0f;
+      text-shadow: 0 1px #3a8b0c;
+    }
+
+    > .fa-qzone:hover {
+      background: #f3b248;
+      text-shadow: 0 1px #c28e3a;
+    }
+
+    > .fa-weibo:hover {
+      background: #eb182c;
+      text-shadow: 0 1px #bc1323
+    }
+
+    > .fa-tencent-weibo:hover {
+      background: #1e8bba;
+      text-shadow: 0 1px #186f95
+    }
+
+    > .fa-renren:hover {
+      background: #0a5d9f;
+      text-shadow: 0 1px #084a7f
+    }
+
+    > .fa-twitter:hover {
+      background: #33aade;
+      text-shadow: 0 1px #2988b2
+    }
+
+    > .fa-facebook:hover {
+      background: #3a5795;
+      text-shadow: 0 1px #2e4677
+    }
+}
