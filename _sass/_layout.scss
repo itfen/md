@@ -241,8 +241,10 @@
 }
 
 .bdsharebuttonbox {
+    height: 40px;
     margin-top: 10px;
-
+    margin-bottom: 20px;
+    
     > a {
       color: #828282;
       text-decoration: none;
