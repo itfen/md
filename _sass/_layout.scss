@@ -241,18 +241,18 @@
 }
 
 .bdsharebuttonbox {
-    height: 40px;
+    height: $social-button-size;
     margin-bottom: 10px;
 
     > a {
-      color: #828282;
+      color: $grey-color;
       text-decoration: none;
       text-align: center;
       float: left;
       display: block;
       position: relative;
-      width: 40px;
-      height: 40px;
+      width: $social-button-size;
+      height: $social-button-size;
     }
 
     > a:hover {
@@ -260,17 +260,17 @@
     }
 
     > a:before {
-      font-size: 24px;
+      font-size: $social-font-size;
       text-align: center;
       -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
-      width: 24px;
-      height: 24px;
+      width: $social-font-size;
+      height: $social-font-size;
       position: absolute;
       top: 50%;
       left: 50%;
-      margin-top: -12px;
-      margin-left: -12px;
+      margin-top: - $social-font-size/2;
+      margin-left: - $social-font-size/2;
     }
 
     > .fa-weixin:hover {
@@ -278,9 +278,33 @@
       text-shadow: 0 1px #3a8b0c;
     }
 
+    > .fa-qzone {
+      > svg {
+          display: inline-block;
+          width: $social-font-size;
+          height: $social-font-size;
+          vertical-align: middle;
+
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-top: - $social-font-size/2;
+          margin-left: - $social-font-size/2;
+          path {
+              fill: $grey-color;
+          }
+      }
+    }
+
     > .fa-qzone:hover {
       background: #f3b248;
-      text-shadow: 0 1px #c28e3a;
+      > svg {
+        -webkit-filter: drop-shadow(  0 1px #c28e3a );
+            filter: drop-shadow(  0 1px #c28e3a );
+        path {
+          fill: #fff;
+        }
+      }
     }
 
     > .fa-weibo:hover {
