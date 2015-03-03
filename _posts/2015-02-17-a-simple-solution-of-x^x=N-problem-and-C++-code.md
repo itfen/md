@@ -18,7 +18,7 @@ x_{n+1} = x_n - frac{f(x_n)}{f'(x_n)}
 
 图示
 
-![Image](http://zh.wikipedia.org/wiki/File:NewtonIteration_Ani.gif)
+![Image](http://upload.wikimedia.org/wikipedia/commons/e/e0/NewtonIteration_Ani.gif)
 
 蓝线表示方程f而红线表示切线. 可以看出xn+1比xn更靠近f所要求的根x.
 由此可见，对于f(x)=x^x-N，要求其图像与x轴的交点，可以多次迭代
