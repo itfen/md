@@ -12,3 +12,6 @@ GitHub 的 [Developer Program](https://developer.github.com/program/) 提供的 
 * [git.io](http://git.io/) : 用于生成 github.com 的短网址链接
 * [RawGit](http://rawgit.com/) : 为托管在 GitHub 上的文件加上正确的 Content-Type 头部以便直接调用
 * [Travis-ci](https://travis-ci.org/) : 为 GitHub 上开源的项目提供免费的持续集成（CI），包括自动化测试等
+* [Code Climate](https://codeclimate.com/) : Ruby、JS 以及 PHP 的自动化代码审核
+* [Inch CI](http://inch-ci.org/) : Ruby、JS 以及 Elixir 的文档覆盖徽标
+* [Issue Stats](http://issuestats.com/) : 查看 Issue 关闭的时间
