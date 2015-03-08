@@ -71,7 +71,7 @@ Yoga 笔记本还专门跟他交流了一下选这款笔记本的原因。
 的 [Rails] 仓库 Clone 下来，Facebook 的网络非常给力，肉身翻墙访问 GitHub 的速度也非常快，在国内估计得
 好几分钟才能下载下来的任务大概十秒钟就完成了。然后让我们使用测试命名运行整个框架的测试，
 这期间遇到的问题一个一个帮我们解决。测试跑通了之后，Aaron 看有些同学对 Ruby 语言不是很熟悉，就跑到演讲台上开始普及
-Ruby 语言的知识，
+Ruby 语言的知识。
 
 ![Facebook Open Academy]({{ site.url }}/assets/img/20150308-15.jpg)
 ![Facebook Open Academy]({{ site.url }}/assets/img/20150308-16.jpg)
@@ -79,8 +79,8 @@ Ruby 语言的知识，
 上午的活动结束后开始供应午餐，自助取食，提供米饭、面包、各种酱、猪肉、鸡肉、沙拉蔬菜、饼干甜点等，非常丰富，但毕竟
 是西餐还是吃不太习惯，感觉比较干，口味偏淡。另外在会议室外面的走廊有冷藏柜和架子上摆满了饮料和零售可以随便拿取。
 
-![Facebook Open Academy]({{ site.url }}/assets/img/20150308-15.jpg)
-![Facebook Open Academy]({{ site.url }}/assets/img/20150308-16.jpg)
+![Facebook Open Academy]({{ site.url }}/assets/img/20150308-17.jpg)
+![Facebook Open Academy]({{ site.url }}/assets/img/20150308-18.jpg)
 
 下午组织参观了 Facebook 的园区，由于是周末不上班，所以比较冷清，看了一下标志性的 Hacker 广场和旁边的小型起重机、
 到其中一个活动室玩了一下老式的街机以及难得一见的实体弹球桌。在办公区域的 Facebook Wall 上写下自己的名字拍照留念。
