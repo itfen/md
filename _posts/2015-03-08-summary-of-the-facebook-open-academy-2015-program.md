@@ -104,7 +104,7 @@ git 命令行完成了合并。
 
 第二天在活动会议室展示 [Oculus Rift] 头戴式虚拟现实显示器：
 
-![Facebook Open Academy]({{ site.url }}/assets/img/20150308-20.jpg)
+![Facebook Open Academy]({{ site.url }}/assets/img/20150308-21.jpg)
 
 两天的活动时间很快就结束了，Facebook 作为活动主办方和资助方，所有人的机票和酒店住宿费用是一笔很大的开销，
 活动对于来说也许并没有什么贡献，因为都是开源软件，也不是他们所需要技术，甚至有些 Mentor 来自
