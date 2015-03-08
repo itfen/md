@@ -109,8 +109,17 @@ git 命令行完成了合并。
 两天的活动时间很快就结束了，Facebook 作为活动主办方和资助方，所有人的机票和酒店住宿费用是一笔很大的开销，
 活动对于来说也许并没有什么贡献，因为都是开源软件，也不是他们所需要技术，甚至有些 Mentor 来自
 Facebook 的竞争对手的公司。但是我觉得这样的活动是一种对教育和开源事业的支持，对为 Facebook
-不断输出优秀人才的高校的反哺，对开源项目良性循环的维持。也希望这样的活动能更多的呗够被国内的
+不断输出优秀人才的高校的反哺，对开源项目良性循环的维持。也希望这样的活动能够更多的被国内的
 IT 公司所借鉴，为学生和开源提供更多的活动和资源。
+
+回国前接下来的 4 天由我们自己安排，2 月 2 号早上我们从 Facebook 提供的酒店 Checkout 然后乘坐
+BART 前往旧金山市中心的 Powell St 车站，然后步行到之前预定好的一个青年旅社登记并寄存行李。
+然后在市中心和唐人街逛了一圈。当天下午又乘坐 BART 前往位于湾区对面奥克兰市旁边的加州大学伯克利分校。
+
+![Facebook Open Academy]({{ site.url }}/assets/img/20150308-22.jpg)
+![Facebook Open Academy]({{ site.url }}/assets/img/20150308-23.jpg)
+![Facebook Open Academy]({{ site.url }}/assets/img/20150308-24.jpg)
+![Facebook Open Academy]({{ site.url }}/assets/img/20150308-25.jpg)
 
 
 [Facebook Open Academy]:    https://www.facebook.com/OpenAcademyProgram
