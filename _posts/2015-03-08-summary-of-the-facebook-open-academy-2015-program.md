@@ -34,11 +34,13 @@ Shuttle 到达 Facebook 预定的酒店——位于机场附近的 Marriott 酒�
 没有进入图书馆和教学楼参观。但是对于学校和国内的学校很明显的区别就是对学生的重视程度明显不同，
 在斯坦福组织活动和张贴海报不需要去审批、借展板什么的，学生宿舍从外观上看比川大的“留学生公寓”
 还好得多。路上看到很多人都穿着印有 Stanford 的文化衫，可见大家对于学校的认同感和归属感是很强的。
+随处可见一边晒着太阳一边看书的和草坪上进行各种集体性的体育活动的学生。
 
 ![Facebook Open Academy]({{ site.url }}/assets/img/20150308-06.jpg)
 ![Facebook Open Academy]({{ site.url }}/assets/img/20150308-07.jpg)
 ![Facebook Open Academy]({{ site.url }}/assets/img/20150308-08.jpg)
 ![Facebook Open Academy]({{ site.url }}/assets/img/20150308-09.jpg)
+![Facebook Open Academy]({{ site.url }}/assets/img/20150308-10.jpg)
 
 第二天 1 月 31 号就是 Open Academy 活动开始的日子，由于参加活动的所有学生、老师和 Mentor 都住在这个酒店，
 那天在酒店吃早餐的时候就开始“勾搭”身边的人，大都是参加这个活动的。然后乘坐大巴来到 Facebook 位于 Menlo Park
