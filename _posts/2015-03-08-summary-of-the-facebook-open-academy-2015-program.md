@@ -7,7 +7,7 @@ share: true
 ---
 
 [Facebook Open Academy] 是由斯坦福大学教授同时也是 Facebook 现代化教育负责人的
-[Jay Borenstein] 发起，由 Facebook 赞助的一个活动。每年春季召集全球知名高校学生、教职员工以及知名开源项目负责人来到
+[Jay Borenstein] 发起，由 Facebook 赞助的一个活动。每年召集全球知名高校学生、教职员工以及知名开源项目负责人来到
 Facebook 总部进行为期两天的见面交流及现场 Hackathon。
 
 ![Facebook Open Academy]({{ site.url }}/assets/img/20150308-01.jpg)
