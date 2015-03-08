@@ -88,6 +88,30 @@ Ruby 语言的知识，
 ![Facebook Open Academy]({{ site.url }}/assets/img/20150308-11.jpg)
 ![Facebook Open Academy]({{ site.url }}/assets/img/20150308-19.jpg)
 
+接下来 Aaron 给我分配了一个任务，在 GitHub 的 Rails 项目的一个
+[Issue](https://github.com/rails/rails/issues/18312)，叫我去测试验证这个 commit
+的代码，由于作者与当前版本的代码出现冲突不能直接合并，需要我创建个 Pull Request 来合并。
+进行完测试后由于我没有用过这种方法合并代码，所以一时间毫无头绪，找到 Aaron 来一步一步的教我用
+git 命令行完成了合并。
+
+第二天又找 Matthew 给我分配了个 [Issue](https://github.com/rails/rails/issues/18573)
+是跟数据库关联有关的，我学习相关知识，写了测试用例，发现并没有作者所描述的问题，后来 Rails
+的成员也解释说这是一个无法也不用解决的问题。
+
+第二天下午去 Facebook 园区门口的“点赞”牌前牌照：
+
+![Facebook Open Academy]({{ site.url }}/assets/img/20150308-20.jpg)
+
+第二天在活动会议室展示 [Oculus Rift] 头戴式虚拟现实显示器：
+
+![Facebook Open Academy]({{ site.url }}/assets/img/20150308-20.jpg)
+
+两天的活动时间很快就结束了，Facebook 作为活动主办方和资助方，所有人的机票和酒店住宿费用是一笔很大的开销，
+活动对于来说也许并没有什么贡献，因为都是开源软件，也不是他们所需要技术，甚至有些 Mentor 来自
+Facebook 的竞争对手的公司。但是我觉得这样的活动是一种对教育和开源事业的支持，对为 Facebook
+不断输出优秀人才的高校的反哺，对开源项目良性循环的维持。也希望这样的活动能更多的呗够被国内的
+IT 公司所借鉴，为学生和开源提供更多的活动和资源。
+
 [Facebook Open Academy]:    https://www.facebook.com/OpenAcademyProgram
 [Jay Borenstein]:           https://www.facebook.com/jay.borenstein
 [Ruby on Rails]:            http://rubyonrails.org/
@@ -98,3 +122,4 @@ Ruby 语言的知识，
 [Eileen M. Uchitelle]:      https://www.facebook.com/eileenmcarpenter
 [Andrew White]:             https://github.com/pixeltrix
 [Rails]:                    https://github.com/rails/rails
+[Oculus Rift]:              https://www.oculus.com/rift/
