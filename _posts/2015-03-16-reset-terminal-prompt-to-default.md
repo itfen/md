@@ -9,13 +9,15 @@ share: true
 不知做了什么操作把终端（Terminal）的命令 $ 符号前指示设备名的字符变成了
  125，之前也变过，不知道怎么恢复的了。网上查了一下原来那串个叫 Prompt（提示符）。
 
-通过命令 (来源: [How to return terminal prompt to default? | Apple Support Communities](https://discussions.apple.com/thread/3617486))
+通过命令:
 
 ```bash
 PS1='$(networksetup -getcomputername):\W \u\$ '
 ```
 
-可以恢复到 Mac 默认的提示符。具体每个参数的意义参考 (来源: Learning the bash Shell, 3rd Edition / O'Reilly Press)：
+可以恢复到 Mac 默认的提示符，来源: [How to return terminal prompt to default? \| Apple Support Communities](https://discussions.apple.com/thread/3617486)
+
+具体每个参数的意义参考 (来源: Learning the bash Shell, 3rd Edition / O'Reilly Press)：
 
 Prompting variables
 
