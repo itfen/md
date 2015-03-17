@@ -11,9 +11,9 @@ share: true
 
 通过命令：
 
-```bash
+{% highlight bash%}
 PS1='$(networksetup -getcomputername):\W \u\$ '
-```
+{% endhighlight %}
 
 可以恢复到 Mac 默认的提示符，（来源: [How to return terminal prompt to default? \| Apple Support Communities](https://discussions.apple.com/thread/3617486)）
 
