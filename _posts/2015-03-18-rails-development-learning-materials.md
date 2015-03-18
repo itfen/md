@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Windows Phone 开发学习资料合集"
+title:  "Ruby on Rails 开发学习资料合集"
 categories:
 comments: true
 share: true
