@@ -6,4 +6,4 @@ comments: true
 share: true
 ---
 
-先挖坑，慢慢填 ...
+[Github上有哪些适合新人围观的Android项目？- 知乎](http://www.zhihu.com/question/28481864)
