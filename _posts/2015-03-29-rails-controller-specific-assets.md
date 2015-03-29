@@ -17,26 +17,26 @@ share: true
 
 这两个功能造成了几个坑爹的现象：
 
-1. 页面会一次性加载所有的 CSS 文件，如果对于不同的 Controller 下的 view 使用了同名的 CSS 选择器名，则会出现冲突
+* 页面会一次性加载所有的 CSS 文件，如果对于不同的 Controller 下的 view 使用了同名的 CSS 选择器名，则会出现冲突
 
-2. 如果把 `require_tree .` 选项关掉，在头部使用
+* 如果把 `require_tree .` 选项关掉，在头部使用
 
 {% highlight erb%}
 <%= javascript_include_tag params[:controller] %>
 <%= stylesheet_link_tag params[:controller] %>
 {% endhighlight %}
 
-来为每个  Controller 之间 指定 JS 和 CSS 文件，同时也开启了 `require turbolinks`，则在 Controller 之间链接跳转的时候，不会重新加载 CSS
+来为每个  Controller 之间 指定 JS 和 CSS 文件，同时也开启了 `require turbolinks`，则在 Controller 之间链接跳转的时候，不会重新加载 CSS 。
 
-3. 开启了 `require turbolinks`，链接跳转的时候页面载入完成不能通过 document.ready 来判断，对应的 CoffeeScript 的 `$ ->`，如果使用这个会导致 Javascript 失效。
+* 开启了 `require turbolinks`，链接跳转的时候页面载入完成不能通过 document.ready 来判断，对应的 CoffeeScript 的 `$ ->`，如果使用这个会导致 Javascript 失效。
 
 以下是解决方法：
 
-1. CSS 冲突问题：
+* CSS 冲突问题：
 
 在 `app/views/layouts/application.html.erb` 中，为 <body> 指定 Controller 样式，在 body 内、yield 外包裹一层 div，指定 Action 样式，即 
 
-{% highlight erb%}
+{% highlight html%}
 <body class="#{controller.controller_name}">
     <div class="#{action_name}">
         = yield
@@ -46,7 +46,7 @@ share: true
 
 在 SCSS 中通过层级关系即可方便的实现 Controller 和 Action 指定的样式
 
-2. JS 页面状态问题
+* JS 页面状态问题
 
 使用
 
