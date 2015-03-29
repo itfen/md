@@ -8,9 +8,10 @@ share: true
 
 新建的 Rails App 的 `app/assets/javascript/application.js` 中通常会有以下两项：
 
+{% highlight javascript%}
 //= require_tree .
-
 //= require turbolinks
+{% endhighlight %}
 
 第一项的作用是启用递归调用，将 `assets/javascript/`下的所有文件包括子文件夹下的文件全部包含到页面中，CSS 同理。第二项的作用是启用 turbolinks 机制，即点击页面上的应用内的跳转链接，会通过 Ajax 比较两个页面的不同从而快速加载。
 
