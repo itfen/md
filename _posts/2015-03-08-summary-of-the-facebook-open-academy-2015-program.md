@@ -4,6 +4,12 @@ title:  "Facebook Open Academy 2015 活动美国行总结"
 categories:
 comments: true
 share: true
+extra_head: |
+    <style>
+    img {
+      height: 240px;
+    }
+    </style>
 ---
 
 [Facebook Open Academy] 是由斯坦福大学教授同时也是 Facebook 现代化教育负责人的
