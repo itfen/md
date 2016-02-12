@@ -10,7 +10,8 @@ description: > # this means to ignore newlines until "baseurl:"
 description_footer: >
   Read more in the <a href="about">About page</a>.
 
-url: "http://mdluo.github.io" # the base hostname & protocol for your site
+url: "https://mdluo.github.io" # the base hostname & protocol for your site
+enforce_ssl: mdluo.github.io
 twitter_username: mdluo
 github_username: mdluo
 
