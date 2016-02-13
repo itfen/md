@@ -340,8 +340,15 @@ body.home {
 }
 
 @media (max-width: $large-screen) {
-  .github-corner{
+  .github-corner {
     display: none;
     visibility: hidden;
+  }
+}
+
+@media (max-width: $mobile-screen) {
+  .social-share-icon.icon-wechat {
+    display: none !important;
+    visibility: hidden !important;
   }
 }
