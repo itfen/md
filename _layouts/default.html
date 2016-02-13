@@ -17,6 +17,10 @@
       <script src="/js/share.min.js"></script>
       <script>
         $(document).ready(function() {
+          $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+            $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+            e.preventDefault();
+          });
           var config = {
             disabled            : ['douban', 'diandian', 'linkedin','google', 'facebook', 'twitter'],
             wechatQrcodeTitle   : "微信扫一扫：分享",
