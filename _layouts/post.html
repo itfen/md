@@ -2,73 +2,24 @@
 layout: default
 ---
 
-<div class="post">
+<article role="article" class="post">
 
+  <div class="card">
     <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </header>
 
-    <article class="post-content">
-        {{ content }}
-    </article>
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+    <hr>
 
     <footer class="post-footer">
-
-      {% if page.share %}
-      <div class="bdsharebuttonbox">
-        <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/" style="width: auto;margin-right: 20px;margin-top: 4px;"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a>
-        <a href="#" class="fa fa-weixin" data-cmd="weixin" title="Share on Wechat"></a>
-        <a href="#" class="fa fa-qzone" data-cmd="qzone" title="Share on QZone">
-          <svg viewBox="0 0 97.683 97.683">
-            <path data-cmd="qzone"  d="M97.578,37.764c-0.249-0.754-0.93-1.291-1.732-1.365l-31.396-2.91L50.817,3.469c-0.312-0.749-1.052-1.237-1.873-1.237
-          		c-0.82,0-1.561,0.489-1.871,1.237L33.021,32.831L1.833,36.399c-0.809,0.075-1.493,0.619-1.738,1.381
-          		c-0.246,0.762-0.004,1.595,0.613,2.114l23.047,21.137L18.083,92.97c-0.183,0.781,0.126,1.592,0.784,2.062
-          		c0.354,0.252,0.771,0.378,1.188,0.378c0.361,0,0.725-0.096,1.047-0.288l28.05-16.117l27.632,16.326
-          		c0.688,0.202,1.558,0.17,2.214-0.285c0.657-0.455,0.978-1.25,0.815-2.025l-4.175-23.645c1.103-0.512,4.345-1.941,6.05-3.902
-          		c-2.78,1.099-3.826,1.389-6.607,1.914v-0.006c-18.563,3.566-47.045,0.541-48.004,0.494L58.316,45
-          		c-10.575-1.941-35.127-2.716-36.642-2.763c-0.197,0.032-0.232,0.034-0.079-0.002c0,0,0.028,0,0.079,0.002
-          		c1.275-0.206,33.333-5.459,51.921-0.21L42.134,64.087c0,0,24.257,2.358,32.813,1.367l-0.573-4.424l22.83-21.158
-          		C97.6,39.347,97.829,38.518,97.578,37.764z"/>
-          </svg>
-        </a>
-        <a href="#" class="fa fa-weibo" data-cmd="tsina" title="Share on Weibo"></a>
-        <a href="#" class="fa fa-tencent-weibo" data-cmd="tqq" title="Share on t.qq"></a>
-        <a href="#" class="fa fa-renren" data-cmd="renren" title="Share on Renren"></a>
-        <a href="#" class="fa fa-twitter" data-cmd="twi" title="Share on Twitter"></a>
-        <a href="#" class="fa fa-facebook" data-cmd="fbook" title="Share on Facebook"></a>
-      </div>
-      <script>
-      window._bd_share_config = {
-        "common": {
-            "bdStyle": "3",
-            "bdSize": "32"
-        },
-        "share": {}
-      };
-      with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~ ( - new Date() / 36e5)];
-      </script>
-      {% endif %}
-
-      {% if page.comments %}
-      <div id="disqus_thread"></div>
-      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-      </noscript>
-      <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'mdluo'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-          var dsq = document.createElement('script');
-          dsq.type = 'text/javascript';
-          dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-      </script>
-      {% endif %}
-
+      {% include share.html %}
+      {% include comments.html %}
     </footer>
+  </div>
 
-</div>
+</article>

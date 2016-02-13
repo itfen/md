@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
+    <main>
+      {% include header.html %}
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
+      <div class="container">
         {{ content }}
       </div>
-    </div>
 
-    {% include footer.html %}
+      {% include footer.html %}
 
+      {% include icons/github-corner.html %}
+
+      <script src="//cdn.bootcss.com/jquery/2.2.0/jquery.min.js"></script>
+      <script src="/js/share.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          var config = {
+            disabled            : ['douban', 'diandian', 'linkedin','google', 'facebook', 'twitter'],
+            wechatQrcodeTitle   : "微信扫一扫：分享",
+            wechatQrcodeHelper  : '<p>微信里点“扫一扫”，扫一下</p><p>二维码便可将本文分享至朋友圈</p>',
+          };
+          $('.social-share-panel').share(config);
+        });
+      </script>
+
+    </main>
   </body>
-
 </html>

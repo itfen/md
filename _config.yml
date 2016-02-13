@@ -1,20 +1,45 @@
-# Site settings
-dmain: mdluo.github.io
-title: Mingdong's blog
-author: Mingdong Luo
-email: mdluo@nsmss.com
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-description: > # this means to ignore newlines until "baseurl:"
-  This is a personal blog of Mingdong on Github Pages.
+# SEO settings
+title:            "Mingdong's blog"
+description:      "This is a personal blog of Mingdong on Github Pages."
+url:              https://mdluo.github.io
+enforce_ssl:      mdluo.github.io
 
-description_footer: >
-  Read more in the <a href="about">About page</a>.
+repo:             https://github.com/mdluo/mdluo.github.io
+disqus_name:      "mdluo"
+disqus_site_name: "Mingdong's Blog"
 
-url: "https://mdluo.github.io" # the base hostname & protocol for your site
-enforce_ssl: mdluo.github.io
-twitter_username: mdluo
-github_username: mdluo
+# Author settings
+author:
+  name:       "Mingdong Luo"
+  first_name: "Mingdong"
+  job:        "Frontend Engineer"
+  bio:        "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  thumb:      /images/author.jpg
+  email:      mdluo@nsmss.com
+  url:        https://mdluo.github.io
+  github:     https://github.com/mdluo
+  zhihu:      https://www.zhihu.com/people/mdluo
+  weibo:      http://weibo.com/mindom
+  sf:         https://segmentfault.com/u/mdluo
 
 # Build settings
-markdown: kramdown
-#highlighter: pygments
+permalink:    /blog/:title/
+markdown:     kramdown
+highlighter:  rouge
+
+sass:
+  style: compressed
+
+paginate:       10
+paginate_path:  /blog/page/:num/
+
+gems:     ["jekyll-paginate"]
+
+exclude:  ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

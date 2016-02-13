@@ -9,3 +9,9 @@ Thumbs.db
 #Gemfile
 Gemfile
 Gemfile.lock
+
+Thumbs.db
+
+*.db
+
+Thumbs.db

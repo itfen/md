@@ -6,18 +6,17 @@ comments: true
 share: true
 ---
 
-作为JavaScript技术经典名著，《JavaScript高级程序设计（第3版）》承继了之前版本全面深入、贴近实战的特点，在详细讲解了JavaScript语言的核心之后，条分缕析地为读者展示了现有规范及实现为开发Web应用提供的各种支持和特性。
+<p class="lead">作为 JavaScript 技术经典名著，《JavaScript 高级程序设计（第3版）》承继了之前版本全面深入、贴近实战的特点，在详细讲解了 JavaScript 语言的核心之后，条分缕析地为读者展示了现有规范及实现为开发Web应用提供的各种支持和特性。</p>
 
 **《JavaScript高级程序设计（第3版）》**
 
-![](http://img3.douban.com/mpic/s8958650.jpg)
+![](https://img3.doubanio.com/mpic/s8958650.jpg)
 
 - 豆瓣链接：[http://book.douban.com/subject/10546125/](http://book.douban.com/subject/10546125/)
 - 京东链接：[http://item.jd.com/10951037.html](http://item.jd.com/10951037.html)
 
-<hr /><br />
 
-#### **第 1 章 JavaScript 简介**
+### 第 1 章 JavaScript 简介
 
 **JavaScript 实现：**  包括 ECMAScript + DOM + BOM
 
@@ -27,11 +26,7 @@ share: true
 
 **BOM：**  浏览器窗口、navigator、location、screen、cookies、XMLHttpRequest 等
 
-<br />
-<hr />
-<br />
-
-#### **第 2 章 在 HTML 中使用 JavaScript**
+### 第 2 章 在 HTML 中使用 JavaScript
 
 **\<script\> 元素属性：**
 
@@ -67,11 +62,7 @@ share: true
 
 **\<noscript\> 元素：**  浏览器不支持脚本或禁用脚本时显示
 
-<br />
-<hr />
-<br />
-
-#### **第 3 章 基本概念**
+### 第 3 章 基本概念
 
 **严格模式：**  `"use strict";`，可在脚本顶部或函数中使用
 

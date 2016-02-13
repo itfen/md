@@ -2,11 +2,13 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+@import "main";
 
+/*
 // Our variables
-// $base-font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$base-font-family: Avenir, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
+$base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -20,20 +22,16 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+// Width of the content area
+$content-width:    800px;
+
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$-webkit-text-size-adjust:      100%;
-$-ms-text-size-adjust:          100%;
-$text-rendering:                optimizelegibility;
-$-moz-osx-font-smoothing:       grayscale;
-$-webkit-font-smoothing:        grayscale;
 
-$social-button-size:            40px;
-$social-font-size:              24px;
 
-// Using media queries with like this:
-// @include media-query($palm) {
+// Use media queries like this:
+// @include media-query($on-palm) {
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
@@ -45,9 +43,12 @@ $social-font-size:              24px;
     }
 }
 
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting"
 ;
+*/

@@ -1,0 +1,31 @@
+.icon {
+  > svg {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    path {
+      fill: $grey-color;
+    }
+  }
+}
+.icon.icon-github:hover {
+  > svg path {
+    fill: $github-dark-color;
+  }
+}
+.icon.icon-zhihu:hover {
+  > svg path {
+    fill: $zhihu-blue-color;
+  }
+}
+.icon.icon-weibo:hover {
+  > svg path {
+    fill: $weibo-red-color;
+  }
+}
+.icon.icon-sf:hover {
+  > svg path {
+    fill: $sf-green-color;
+  }
+}
