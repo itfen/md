@@ -9,6 +9,11 @@
     }
   }
 }
+.icon.icon-email:hover {
+  > svg path {
+    fill: $email-red-color;
+  }
+}
 .icon.icon-github:hover {
   > svg path {
     fill: $github-dark-color;
