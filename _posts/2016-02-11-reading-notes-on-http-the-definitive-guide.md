@@ -12,13 +12,13 @@ share: true
 
 ![](https://img1.doubanio.com/mpic/s11329547.jpg)
 
-豆瓣链接：[http://book.douban.com/subject/10746113/](http://book.douban.com/subject/10746113/)
-
-京东链接：[http://item.jd.com/11056556.html](http://item.jd.com/11056556.html)
+- 豆瓣链接：[http://book.douban.com/subject/10746113/](http://book.douban.com/subject/10746113/)
+- 京东链接：[http://item.jd.com/11056556.html](http://item.jd.com/11056556.html)
 
 ### 第 2 章 URL 与资源
 
-- URL 通用格式：
+**URL 通用格式：**
+
 `<scheme>://<user>:<password>@<host>:<port>/<path>;<params>?<query>#<frag>`
 
-- 相对 URL 转绝对 URL：
+**相对 URL 转绝对 URL：**

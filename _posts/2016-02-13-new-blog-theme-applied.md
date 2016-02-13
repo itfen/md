@@ -10,7 +10,7 @@ share: true
 
 源码地址：[https://github.com/mdluo/mdluo.github.io](https://github.com/mdluo/mdluo.github.io)，也可点击右上角 GitHub 图标跳转到
 
-主题主要部分基于 [end2edn](https://github.com/nandomoreirame/end2end)，文字内容样式参考 [Kiko](https://github.com/gfjaru/Kiko)
+主题主要部分基于 [end2end](https://github.com/nandomoreirame/end2end)，文字内容样式参考 [Kiko](https://github.com/gfjaru/Kiko)
 
 开启了全站 HTTPS，方法是在 `_config.yml` 中设置 `enforce_ssl: mdluo.github.io`
 
