@@ -16,7 +16,7 @@ share: true
 
 静态资源使用又拍云 (upyun) CDN 加速：[https://www.upyun.com](https://www.upyun.com)
 
-开启了全站 HTTPS，方法是在 `_config.yml` 中设置 `enforce_ssl: mdluo.github.io`，并在页面头部加入判断代码，参考：[https://github.com/isaacs/github/issues/289](https://github.com/isaacs/github/issues/289)
+开启了全站 HTTPS，方法是在 `_config.yml` 中设置 `enforce_ssl: mdluo.github.io`，并在页面头部加入判断代码，参考：[https://github.com/isaacs/github/issues/289](https://github.com/isaacs/github/issues/289)、[https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/](https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/)
 
 域名换回 `mdluo.github.io`，防止自己的域名被墙，同时也可以使用 [Git.io](https://git.io/) 为博客设置短 URL
 
