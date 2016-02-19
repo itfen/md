@@ -24,6 +24,15 @@
     fill: $zhihu-blue-color;
   }
 }
+.icon.icon-v2ex svg {
+  width: 18px;
+  height: 18px;
+}
+.icon.icon-v2ex:hover {
+  > svg path {
+    fill: $v2ex-dark-color;
+  }
+}
 .icon.icon-weibo:hover {
   > svg path {
     fill: $weibo-red-color;
