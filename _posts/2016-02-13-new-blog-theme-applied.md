@@ -14,6 +14,14 @@ share: true
 
 调整优化移动设备显示效果：屏幕较小时隐藏右上角 GitHub 图标及分享图标
 
+调整多行代码块在设置行号的情况下的显示效果，效果如下
+
+{% highlight html linenos %}
+{% highlight html linenos %}
+test
+{% endhighlight %}
+{% endhighlight %}
+
 静态资源使用又拍云 (upyun) CDN 加速：[https://www.upyun.com](https://www.upyun.com)
 
 开启了全站 HTTPS，方法是在 `_config.yml` 中设置 `enforce_ssl: mdluo.github.io`，并在页面头部加入判断代码，参考：[https://gist.github.com/konklone/9968713](https://gist.github.com/konklone/9968713)、[https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/](https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/)

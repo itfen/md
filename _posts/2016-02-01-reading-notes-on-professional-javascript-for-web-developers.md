@@ -37,7 +37,7 @@ share: true
 
 **\<script\> 元素示例：**
 
-{% highlight html%}
+{% highlight html linenos %}
 <script type="text/javascript" src="example.js"></script>
 {% endhighlight %}
 
@@ -48,13 +48,12 @@ share: true
 - 混杂模式：IE 的行为与 IE5 相同
 - 标准模式：IE 的行为接近标准行为
 
-{% highlight html%}
+{% highlight html linenos %}
 <!-- HTML 4.01 严格型 -->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
 <!-- XHTML 1.0 严格型 -->
-<!DOCTYPE html PUBLIC
-"-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <!-- HTML 5 -->
 <!DOCTYPE html>

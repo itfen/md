@@ -18,7 +18,7 @@ share: true
 
 - ssh to your server.
 
-{% highlight bash%}
+{% highlight bash linenos %}
 #if you are using Apache as web server, change `www-data` to `www`
 chown -R www-data /path/to/the/repository/
 chmod -R g+s /path/to/the/repository/
