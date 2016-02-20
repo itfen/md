@@ -347,8 +347,12 @@ body.home {
 }
 
 @media (max-width: $mobile-screen) {
-  .social-share-icon.icon-wechat {
-    display: none !important;
-    visibility: hidden !important;
+  body {
+    -webkit-text-size-adjust: none;
+    
+    .social-share-icon.icon-wechat {
+        display: none !important;
+        visibility: hidden !important;
+      }
   }
 }
