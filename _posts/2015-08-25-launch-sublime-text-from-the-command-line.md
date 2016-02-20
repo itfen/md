@@ -6,6 +6,6 @@ comments: true
 share: true
 ---
 
-{% highlight bash%}
+{% highlight bash linenos %}
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 {% endhighlight %}

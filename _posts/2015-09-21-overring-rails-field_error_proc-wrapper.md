@@ -10,7 +10,7 @@ Rails 的数据验证配合表单帮助方法会自动为出错的表单信息�
 
 方法1：如果只需要修改此包裹元素，找到 `config/application.rb` 在 `class Application < Rails::Application` 中添加
 
-{% highlight ruby%}
+{% highlight ruby linenos %}
 config.action_view.field_error_proc = Proc.new { |html_tag, instance|
   "<div class=\"ui input error\">#{html_tag}</div>".html_safe
 }

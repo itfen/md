@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "《HTTP 权威指南》读书笔记"
-categories: HTTP 计算机网络 书籍
+tags: HTTP 计算机网络 书籍
 comments: true
 share: true
 ---

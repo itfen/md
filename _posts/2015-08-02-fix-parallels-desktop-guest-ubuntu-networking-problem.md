@@ -11,7 +11,7 @@ share: true
 Parallels Desktop > Preferences > Advanced > Network > Change Settings > Restore Defaults 重制 Parallels 的网络接口
 
 然后在 Ubuntu 中编辑 `/etc/resolv.conf` （如果没有则创建），添加：
-{% highlight bash%}
+{% highlight bash linenos %}
 nameserver 114.114.114.114
 nameserver 8.8.8.8
 {% endhighlight %}

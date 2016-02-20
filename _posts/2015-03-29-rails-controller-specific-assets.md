@@ -8,7 +8,7 @@ share: true
 
 新建的 Rails App 的 `app/assets/javascript/application.js` 中通常会有以下两项：
 
-{% highlight javascript%}
+{% highlight javascript linenos %}
 //= require_tree .
 //= require turbolinks
 {% endhighlight %}
@@ -21,7 +21,7 @@ share: true
 
 * 如果把 `require_tree .` 选项关掉，在头部使用
 
-{% highlight erb%}
+{% highlight erb linenos %}
 <%= javascript_include_tag params[:controller] %>
 <%= stylesheet_link_tag params[:controller] %>
 {% endhighlight %}
@@ -34,9 +34,9 @@ share: true
 
 * CSS 冲突问题：
 
-在 `app/views/layouts/application.html.erb` 中，为 <body> 指定 Controller 样式，在 body 内、yield 外包裹一层 div，指定 Action 样式，即 
+在 `app/views/layouts/application.html.erb` 中，为 <body> 指定 Controller 样式，在 body 内、yield 外包裹一层 div，指定 Action 样式，即
 
-{% highlight html%}
+{% highlight html linenos %}
 <body class="#{controller.controller_name}">
     <div class="#{action_name}">
         = yield
@@ -50,7 +50,7 @@ share: true
 
 使用
 
-{% highlight coffeescript%}
+{% highlight coffeescript linenos %}
 ready = ->
 # JS代码
 $(document).ready(ready)
