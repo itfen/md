@@ -24,6 +24,14 @@
     fill: $zhihu-blue-color;
   }
 }
+.icon.icon-douban svg {
+  width: 17px;
+}
+.icon.icon-douban:hover {
+  > svg path {
+    fill: $douban-brown-color;
+  }
+}
 .icon.icon-v2ex svg {
   width: 18px;
   height: 18px;
