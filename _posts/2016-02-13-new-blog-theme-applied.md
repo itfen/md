@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "博客新主题"
+categories: [sticky]
 tags: Jekyll 博客
 comments: true
 share: true
@@ -22,6 +23,8 @@ share: true
   </span></pre></td></tr></tbody></table></code>
 </pre></figure>
 {% endhighlight %}
+
+添加置顶文章，方法参考：[http://swaac.tamouse.org/swaac/2013/09/28/jekyll-making-posts-sticky/](http://swaac.tamouse.org/swaac/2013/09/28/jekyll-making-posts-sticky/)
 
 静态资源使用 [七牛](http://www.qiniu.com/) (qiniu) 云存储 和 [又拍云](https://www.upyun.com) (upyun) 融合 CDN 加速并全部开启 HTTPS
 
