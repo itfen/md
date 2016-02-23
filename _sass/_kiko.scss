@@ -47,7 +47,13 @@ article {
   ul + h3,
   ol + h1,
   ol + h2,
-  ol + h3 {
+  ol + h3,
+  .example-code + h1,
+  .example-code + h2,
+  .example-code + h3,
+  script + h1,
+  script + h2,
+  script + h3 {
     margin-top: 2rem;
   }
 
@@ -65,17 +71,16 @@ article {
   }
 
   ul {
-    list-style: inside circle;
+    list-style: inside disc;
     padding-left: 0;
 
     li {
       margin-bottom: .25rem;
     }
 
-    ul,
-    ol {
-      margin-top: .25rem;
-      margin-bottom: .5rem;
+    ul, ol {
+      list-style: inside circle;
+      margin: .25rem 0 .5rem 1rem;
     }
   }
 
@@ -87,10 +92,8 @@ article {
       margin-bottom: .25rem;
     }
 
-    ul,
-    ol {
-      margin-top: .25rem;
-      margin-bottom: .5rem;
+    ul, ol {
+      margin: .25rem 0 .5rem 1rem;
     }
   }
 
@@ -166,6 +169,21 @@ article {
     font-size: 1.1rem;
     text-indent: 2em;
     color: #888;
+  }
+
+  .example-code {
+    background-color: #f9f9f9;
+    padding: .8em 1.2em;
+    margin-bottom: 1em;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      margin-bottom: 0;
+    }
   }
 }
 
