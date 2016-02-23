@@ -124,9 +124,17 @@ article {
     border-left: .5rem solid #e5e5e5;
     quotes: none;
 
+    p {
+      display: block;
+    }
+
     p:last-child {
       margin-bottom: 0;
     }
+  }
+
+  blockquote:before {
+    content: none;
   }
 
   img {
