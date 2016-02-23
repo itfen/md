@@ -14,7 +14,7 @@ share: true
 
 CSS 的 [Selectors Level 3](https://drafts.csswg.org/selectors-3/) (通俗的说也就是 CSS3) 中新增了近二十个新的伪类，但本文仅选择结构性伪类中的  `:nth-child` 和 `:nth-last-child`， `:nth-of-type` 和 `:nth-last-of-type`， `:last-child` 来解析。
 
-结构性伪类的作用很明显，可以帮助我们省去 HTML 中描述结构的 class 或 ID，其中一个重要用途就是表格的个性化显示。不过在使用的时候要注意对照 [Specifications](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) 和 [兼容性表](https://kimblim.dk/css-tests/selectors/) 来确定哪些伪类是被浏览器支持的。
+结构性伪类的作用很明显，可以帮助我们省去 HTML 中描述结构的 class 或 ID，其中一个重要用途就是表格的个性化显示。
 
 ### 2. `:first-child`
 
@@ -292,3 +292,9 @@ li:nth-last-of-type(-n+2) { font-style: italic; }     /* 后两个 */
 </script>
 
 通过对比可以明显发现 `:nth-child` 和 `:nth-of-type` 的区别。比如第 5 行，尽管这个 li 处于父 ul 的第 4 的位置，但是由于兄弟元素的第一个为 p，所以要从第二个元素开始计数的第 3 就是第 5 行的这个 li
+
+### 5. 扩展阅读
+
+- [Pseudo Classes Specifications](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+- [CSS 选择器兼容性表](https://kimblim.dk/css-tests/selectors/)
+- [交互式结构性伪类测试器](http://lea.verou.me/demos/nth.html)
