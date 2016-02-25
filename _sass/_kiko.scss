@@ -35,9 +35,12 @@ article {
     font-size: 1rem;
   }
 
+  p, li {
+    word-break: break-word;
+  }
+
   p {
     margin: 0 0 1rem;
-    word-break: break-word;
   }
   p + h1,
   p + h2,
