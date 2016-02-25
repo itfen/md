@@ -377,6 +377,13 @@ body.home {
   body {
     -webkit-text-size-adjust: none;
 
+    article {
+
+      p, li {
+        word-break: break-all;
+      }
+    }
+
     .social-share-icon.icon-wechat {
         display: none !important;
         visibility: hidden !important;
