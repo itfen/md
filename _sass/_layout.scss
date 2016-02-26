@@ -385,8 +385,13 @@ body.home {
     }
 
     .social-share-icon.icon-wechat {
-        display: none !important;
-        visibility: hidden !important;
-      }
+      display: none !important;
+      visibility: hidden !important;
+    }
+
+    footer ul.social>li:last-child {
+      display: none !important;
+      visibility: hidden !important;
+    }
   }
 }
