@@ -34,6 +34,7 @@ share: true
 - Tinyfool：[https://book.douban.com/people/tinyfool/](https://book.douban.com/people/tinyfool/)
 - Rei：[https://book.douban.com/people/chloerei/](https://book.douban.com/people/chloerei/)
 - 李华顺：[https://book.douban.com/people/huacnlee/](https://book.douban.com/people/huacnlee/)
+- Lucida：[http://lucida.me/blog/developer-reading-list/](http://lucida.me/blog/developer-reading-list/)
 
 **我关注的人（排名不分先后）**
 
