@@ -38,6 +38,9 @@
   left: 50px;
   font-size: 0.9em;
 }
+#ds-thread #ds-reset .ds-replybox {
+  margin-top: 10px;
+}
 
 @media (max-width: 480px) {
   #ds-thread.ds-narrow #ds-reset .ds-replybox {
