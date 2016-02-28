@@ -40,5 +40,6 @@ share: true
 
 - 寻海：[http://book.douban.com/people/62719021/](http://book.douban.com/people/62719021/)
 - alsotang：[http://book.douban.com/people/alsotang/](http://book.douban.com/people/alsotang/)
+- 颜海镜：[http://book.douban.com/people/yanhaijing/](http://book.douban.com/people/yanhaijing/)
 - 张秋怡：[http://book.douban.com/people/joyee-cheung/](http://book.douban.com/people/joyee-cheung/)
 - kshift：[http://book.douban.com/people/kshift/](http://book.douban.com/people/kshift/)
