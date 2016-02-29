@@ -19,7 +19,7 @@ share: true
 
 **[大前端的瑞士军刀，只记录有用的](http://www.fefork.com/fetool/)**（[源码](https://github.com/nieweidong/fetool)）（聂微东，百度）
 
-**[前端收集](https://github.com/foru17/front-end-collect)**（罗磊，腾讯）
+**[前端收集](https://github.com/foru17/front-end-collect)**（罗磊，腾讯阅文）
 
 **[知乎上前端开发领域有哪些值得推荐的问答？——知乎](https://www.zhihu.com/question/20246142)**
 
@@ -53,7 +53,7 @@ share: true
 
 **[互联网公司技术岗实习/求职经验（实习内推+简历+面试+offer篇）](http://www.cnblogs.com/joyeecheung/p/5003980.html)**（张秋怡，阿里巴巴）
 
-**[史上最全 前端开发面试问题及答案整理](https://github.com/hawx1993/Front-end-Interview-questions)**（trigkit4）
+**[史上最全 前端开发面试问题及答案整理](https://github.com/hawx1993/Front-end-Interview-questions)**（trigkit4，口袋购物）
 
 **[最全前端开发面试问题及答案整理](https://github.com/AutumnsWind/Front-end-questions-to-the-interview-stage)**（AutumnsWind）
 
