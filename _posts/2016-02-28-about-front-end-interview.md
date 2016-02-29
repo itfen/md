@@ -33,7 +33,7 @@ share: true
 
 **[前端开发者手册](https://github.com/dwqs/fedHandlebook)**（Pomy，美团）
 
-**[前端开发，从菜鸟到大牛的取经之路](http://justjavac.com/web/2014/06/23/qianduankaifa-congcainiao-daodaniu-de-qujingzhilu.html)**（justjavac，天津维基科技）
+**[有哪些关于前端开发技术（HTML、CSS 和 JavaScript 等）的值得推荐的书籍？](https://www.zhihu.com/question/19809484/answer/13215239)**（李路，Knewone）
 
 **[前端路上的旅行](http://www.w3cplus.com/front-end-trip-on-road.html)**（大漠，淘宝）
 
