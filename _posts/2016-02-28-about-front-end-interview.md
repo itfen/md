@@ -10,8 +10,8 @@ share: true
 
 ### 1. 前端团队
 
-参考我之前整理的国内知名前端团队的列表（只选了维护了网站、技术型前端团队）：<br>
-**[Awesome Front-end Teams](https://github.com/mdluo/awesome-fe-team)**
+参考我整理的列表（只选了维护了网站、技术型前端团队）：
+**[国内知名前端团队](https://github.com/mdluo/awesome-fe-team)**
 
 ### 2. 知识技能
 
@@ -24,8 +24,6 @@ share: true
 **[知乎上前端开发领域有哪些值得推荐的问答？——知乎](https://www.zhihu.com/question/20246142)**
 
 **[2015-2016前端知识体系图谱](http://www.w3ctech.com/topic/1690)**（w3ctech）
-
-**[推荐的一些值得订阅的Weekly](https://github.com/fenbility/weekly-feed)**（GitHub）
 
 **[前端收藏夹](http://collect.w3ctrain.com/)**（[源码](https://github.com/w3ctrain/w3ctrain.github.io)）（w3ctrian）
 
@@ -87,7 +85,39 @@ share: true
 
 **[初级前端面试需要带什么作品？——知乎](https://www.zhihu.com/question/39486348)**
 
-### 5. 前端新技术
+### 5. 网站、专栏、周刊
+
+**[前端开发 —— 知乎](https://www.zhihu.com/topic/19550901/top-answers)**
+
+**[前端 —— 稀土掘金](http://gold.xitu.io/#/tag/%E5%89%8D%E7%AB%AF)**
+
+**[前端乱炖](http://www.html-js.com/)**
+
+**[w3cplus](http://www.w3cplus.com/)**
+
+**[w3ctech](http://www.w3ctech.com/)**
+
+**[前端开发博客](http://caibaojian.com/c/feature)**
+
+**[前端观察](https://www.qianduan.net/)**
+
+**[前端De早读课](http://www.zaoduke.net/)**
+
+**[前端大全 —— 伯乐在线](http://web.jobbole.com/)**
+
+**[前端 —— 开发早读课](http://www.devtoutiao.com/frontend)**
+
+**[imweb前端社区](http://imweb.io/)**
+
+**[奇舞周刊](http://www.75team.com/weekly/)**
+
+**[精华 —— CNode社区](https://cnodejs.org/?tab=good)**
+
+**[web前端开发 —— segmentfault](https://segmentfault.com/t/web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/blogs)**
+
+**[发现：前端 —— 开发者头条](http://toutiao.io/explore?q=%E5%89%8D%E7%AB%AF)**
+
+### 6. 前端新技术
 
 **[谈谈前端『新』技术](http://weibo.com/p/1001603934708609234550)**（尤雨溪，Meteor）
 
@@ -96,5 +126,3 @@ share: true
 **[近几年前端技术盘点以及 2016 年技术发展方向](http://www.barretlee.com/blog/2015/12/10/after-framework-we-gonna-to-hug-data/)**（小胡子哥，淘宝）
 
 **[如何跟上前端开发的最新前沿](https://uptodate.frontendrescue.org/zh/)**（GitHub）
-
-**[我感觉到的前端变化](http://bbear.me/wo-suo-gan-jue-dao-de-qian-duan-bian-hua/)**（bbear）
