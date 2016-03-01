@@ -33,6 +33,8 @@ share: true
 
 **[前端开发者手册](https://github.com/dwqs/fedHandlebook)**（Pomy，美团）
 
+**[Front-End-Develop-Guide 前端开发指南](https://github.com/icepy/Front-End-Develop-Guide)**（icepy，音悦台）
+
 **[有哪些关于前端开发技术（HTML、CSS 和 JavaScript 等）的值得推荐的书籍？](https://www.zhihu.com/question/19809484/answer/13215239)**（李路，Knewone）
 
 **[前端路上的旅行](http://www.w3cplus.com/front-end-trip-on-road.html)**（大漠，淘宝）
