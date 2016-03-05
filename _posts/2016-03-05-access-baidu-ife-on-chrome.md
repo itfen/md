@@ -18,4 +18,4 @@ Mozilla/5.0 (Linux; U; Android 5.0.2; zh-cn; Redmi Note 3 Build/LRX22G) AppleWeb
 
 3. `Indicator Flag` 为 `IP6`
 
-4. 访问：[http://ife.baidu.com/group/profile](http://ife.baidu.com/group/profile) 
+4. 在已经登录了百度账号的情况下访问：[http://ife.baidu.com/user/editprofile](http://ife.baidu.com/user/editprofile) 
