@@ -8,10 +8,10 @@
 # SEO settings
 title:            "itfen's blog"
 description:      "This is a personal blog of Mingdong on Github Pages."
-url:              https://itfen.github.io
+url:              http://itfen.github.io/md
 enforce_ssl:      itfen.github.io
 
-repo:             https://github.com/iten/md.github.io
+repo:             http://itfen.github.io/md
 disqus_name:      "md"
 disqus_site_name: "Mingdong's Blog"
 cnd:              //mdluo.b0.upaiyun.com/blog
