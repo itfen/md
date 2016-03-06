@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # SEO settings
-title:            "Mingdong's blog"
+title:            "itfen's blog"
 description:      "This is a personal blog of Mingdong on Github Pages."
-url:              https://mdluo.github.io
-enforce_ssl:      mdluo.github.io
+url:              https://itfen.github.io
+enforce_ssl:      itfen.github.io
 
-repo:             https://github.com/mdluo/mdluo.github.io
+repo:             https://github.com/iten/mdluo.github.io
 disqus_name:      "mdluo"
 disqus_site_name: "Mingdong's Blog"
 cnd:              //mdluo.b0.upaiyun.com/blog
