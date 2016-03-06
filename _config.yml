@@ -11,8 +11,8 @@ description:      "This is a personal blog of Mingdong on Github Pages."
 url:              https://itfen.github.io
 enforce_ssl:      itfen.github.io
 
-repo:             https://github.com/iten/mdluo.github.io
-disqus_name:      "mdluo"
+repo:             https://github.com/iten/md.github.io
+disqus_name:      "md"
 disqus_site_name: "Mingdong's Blog"
 cnd:              //mdluo.b0.upaiyun.com/blog
 
